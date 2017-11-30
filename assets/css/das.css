@@ -1,0 +1,22 @@
+.main-nav{background:#00334d;border-radius:0px;  }
+	.main-nav a{color:white;}
+	li.dropdown.open > a:focus,li.dropdown.open > a:hover,li.dropdown.open > a {
+		  color: white;
+		  background: none;
+		}
+	.icon-bar{background:white;}
+	.open a:focus,.open .dropdown-toggle:focus,.navbar-nav li a:hover,.navbar-nav li a:focus,.main-nav a:hover,.main-nav a:focus{background:none;color:none;}
+	body { background: url("../dasboard.jpg") no-repeat center fixed;	background-size:cover;	}
+	
+	.sub{ height:150px;	border-radius:50%; font-weight:bold; font-size:55px;	width:150px; line-height: 10px;	background:#0099e6; color:white; margin:auto; padding-top:30px; text-align:center;}
+	.sub a{color:white;text-decoration:none; font-size:15px; padding-top:10px;}
+	
+	.footer{border-top:2px solid #1a1a1a;color:white; position:relative; bottom:0;}
+	.menu{margin-bottom:30px;}
+		@media (max-width: 767px) {
+	 .dropdown-menu>li>a {
+		line-height: 20px;
+		color: white;
+	}
+	}
+	

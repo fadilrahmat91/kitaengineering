@@ -1,0 +1,33 @@
+.main-nav{background:#00334d;border-radius:0px;  }
+	.main-nav a{color:white;}
+	li.dropdown.open > a:focus,li.dropdown.open > a:hover,li.dropdown.open > a {
+		  color: white;
+		  background: none;
+		}
+	a:focus{text-decoration:none;}
+	body {padding-top:50px;}
+	.info{color:#c3c2c2;}
+	.kategori{border-left:3px solid #a09d9d;border-bottom:1px solid #a09d9d;font-family:nunito;padding:5px;}
+	.terkait{border-left:3px solid #a09d9d;border-bottom:1px solid #a09d9d;font-family:nunito;padding:5px;}
+	.m_kategori a{color:#64717b;  text-decoration:none;cursor:pointer; font-size:20px;margin-bottom:10px;}
+	.m_kategori{padding-bottom:20px;}
+		.icon-bar{background:white;}
+	.open a:focus,.open .dropdown-toggle:focus,.navbar-nav li a:hover,.navbar-nav li a:focus,.main-nav a:hover,.main-nav a:focus{background:none;color:none;}
+	.pagination ul li a{margin-right:20px; }
+	
+	@media (max-width: 767px) {
+	 .dropdown-menu>li>a {
+		line-height: 20px;
+		color: white;
+	}
+	}
+		@media (max-width: 767px) {
+	 .tombol {
+		margin-left:10px;
+		
+	}
+	}
+	
+	
+	.footer{border-top:2px solid #1a1a1a;color:white; position:relative; bottom:0;}
+	
